@@ -1,0 +1,12 @@
+---
+
+- hosts: localhost
+
+  tasks:
+
+  - name: delete resource group
+
+    azure_rm_resourcegroup:
+
+      name: ansible-lab-user1
+      state: absent
