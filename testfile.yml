@@ -4,7 +4,6 @@
   - name: Create training file
 
     file:
-
      path: /home/ansible/training
 
      state: touch
